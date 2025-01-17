@@ -1,10 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./Layout";
 import Home from "./pages/Home"
-// import About from "./pages/About"
+import About from "./pages/About"
 import Contact from "./pages/FormHandle"
 import Service from "./pages/Service";
 import NoPage from "./pages/NoPage";
+import FormHandle from "./pages/FormHandle";
 
 
 
@@ -20,8 +21,8 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="home" element={<Home />} />
 
-
-
+          <Route path="handle" element={<FormHandle />} />
+          <Route path="about" element={<About />} />
 
 
 
