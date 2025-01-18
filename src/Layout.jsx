@@ -5,7 +5,7 @@ const Layout = () => {
             <Link to="home">Home</Link> |
             <Link to="about">About</Link> |
             <Link to="contact">Form</Link>|
-            <Link to="about">About</Link>
+            <Link to="axios">Axios</Link>
             <hr />
             <Outlet />
         </>
