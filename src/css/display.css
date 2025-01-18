@@ -1,0 +1,28 @@
+/* Container for the entire component */
+.container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Style for the table */
+  .table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  /* Style for table header and cells */
+  .th-td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  /* Red color and pointer for delete action */
+  .delete-btn {
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+  }
+  

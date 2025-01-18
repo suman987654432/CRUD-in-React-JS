@@ -1,12 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./Layout";
 import Home from "./pages/Home"
-import About from "./pages/About"
-
 import NoPage from "./pages/NoPage";
-import FormHandle from "./pages/FormHandle";
-import Fetch from "./pages/Fetch";
-
+import Insert from "./pages/Insert"
+import Display from "./pages/Display"
+import EditPage from "./pages/EditPage";
 
 
 
@@ -20,9 +18,9 @@ const App = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="home" element={<Home />} />
-          <Route path="axios" element={<Fetch />} />
-          <Route path="handle" element={<FormHandle />} />
-          <Route path="about" element={<About />} />
+          <Route path="insert" element={<Insert />} />
+          <Route path="display" element={<Display />} />
+          <Route path="editdata/:id" element={<EditPage />} />
 
 
 

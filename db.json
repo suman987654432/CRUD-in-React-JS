@@ -1,35 +1,25 @@
 {
-    "students": [
-      {
-        "rollNo": 1,
-        "name": "Suman Kumar",
-        "city": "Delhi",
-        "fees": 1500
-      },
-      {
-        "rollNo": 2,
-        "name": "Anjali Sharma",
-        "city": "Mumbai",
-        "fees": 2000
-      },
-      {
-        "rollNo": 3,
-        "name": "Rahul Verma",
-        "city": "Chennai",
-        "fees": 1800
-      },
-      {
-        "rollNo": 4,
-        "name": "Priya Gupta",
-        "city": "Kolkata",
-        "fees": 1700
-      },
-      {
-        "rollNo": 5,
-        "name": "Arjun Singh",
-        "city": "Bangalore",
-        "fees": 2500
-      }
-    ]
-  }
-  
+  "students": [
+    {
+      "id": "1",
+      "rollno": 1,
+      "name": "Suman Kumar",
+      "city": "Delhi",
+      "fees": 1500
+    },
+    {
+      "id": "2",
+      "rollno": 2,
+      "name": "Anjalisingh",
+      "city": "Mumbai",
+      "fees": 2000
+    },
+    {
+      "id": "89b8",
+      "rollno": "464",
+      "name": "richa kumari",
+      "city": "Bihar",
+      "fees": "53533"
+    }
+  ]
+}

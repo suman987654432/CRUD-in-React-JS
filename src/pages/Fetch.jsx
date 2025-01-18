@@ -17,9 +17,6 @@ const Fetch = () => {
   useEffect(() => {
     loadData()
   }, [])
-
-
-
   return (
     <>
       <center>
@@ -45,16 +42,7 @@ const Fetch = () => {
               )
             })}
           </tbody>
-
-
-
-
         </table>
-
-
-
-
-
       </center>
     </>
   )
