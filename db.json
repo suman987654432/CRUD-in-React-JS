@@ -27,6 +27,13 @@
       "name": "vias",
       "city": "Bihar",
       "fees": "4553"
+    },
+    {
+      "id": "5f2c",
+      "rollno": "184",
+      "name": "suman kumar",
+      "city": "lakhisarai",
+      "fees": "520000"
     }
   ]
 }

@@ -7,10 +7,15 @@ const Search = () => {
     const [mydata, setMydata] = useState([]);
 
     const handleSubmit = async () => {
+        if (rno.trim() === "") {
+            alert("Please enter a roll number");
+            return;
+        }
         const api = `http://localhost:3000/students/?rollno=${rno}`;
         try {
             const response = await axios.get(api);
             setMydata(response.data);
+
             alert("Data search successful");
         } catch (error) {
             console.error("Error fetching data:", error);
