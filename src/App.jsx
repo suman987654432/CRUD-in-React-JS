@@ -5,6 +5,7 @@ import NoPage from "./pages/NoPage";
 import Insert from "./pages/Insert"
 import Display from "./pages/Display"
 import EditPage from "./pages/EditPage";
+import Search from "./pages/Search";
 
 
 
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="insert" element={<Insert />} />
           <Route path="display" element={<Display />} />
           <Route path="editdata/:id" element={<EditPage />} />
+          <Route path="search" element={<Search />} />
 
 
 
