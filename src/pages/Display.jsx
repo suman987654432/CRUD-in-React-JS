@@ -22,7 +22,7 @@ const Display = () => {
         const api = `http://localhost:3000/students/${id}`;
         try {
             await axios.delete(api);
-            setmydata(mydata.filter((student) => student.id !== id));
+            loadData()
             alert("Data deleted");
         } catch (error) {
             console.error("Error deleting data:", error);
@@ -30,28 +30,30 @@ const Display = () => {
         }
     };
     const handleEdit = (id) => {
+
         navigate(`/editdata/${id}`);
     };
 
     useEffect(() => {
         loadData();
     }, []);
-
     const ans = mydata.map((key) => {
         return (
-            <tr key={key.id}>
-                <td>{key.rollno}</td>
-                <td>{key.name}</td>
-                <td>{key.city}</td>
-                <td>{key.fees}</td>
-                <td
-                    onClick={() => handleDelete(key.id)} >
-                    <MdDeleteForever style={{ width: "30px", height: "30px", cursor: "pointer", color: "red" }} />
-                </td>
-                <td onClick={() => handleEdit(key.id)}>
-                    <FaEdit />
-                </td>
-            </tr >
+            <>
+                <tr>
+                    <td>{key.rollno}</td>
+                    <td>{key.name}</td>
+                    <td>{key.city}</td>
+                    <td>{key.fees}</td>
+                    <td
+                        onClick={() => handleDelete(key.id)} >
+                        <MdDeleteForever style={{ width: "30px", height: "30px", cursor: "pointer", color: "red" }} />
+                    </td>
+                    <td onClick={() => handleEdit(key.id)}>
+                        <FaEdit />
+                    </td>
+                </tr >
+            </>
         );
     });
 

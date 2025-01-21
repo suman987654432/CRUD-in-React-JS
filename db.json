@@ -8,32 +8,11 @@
       "fees": 2000
     },
     {
-      "id": "89b8",
-      "rollno": "464",
-      "name": "richa kumari",
+      "id": "8dcb",
+      "rollno": "34",
+      "name": "ravi",
       "city": "Bihar",
-      "fees": "53533"
-    },
-    {
-      "id": "486f",
-      "rollno": "23",
-      "name": "vias",
-      "city": "Bihar",
-      "fees": "4553"
-    },
-    {
-      "id": "5f2c",
-      "rollno": "184",
-      "name": "suman kumar",
-      "city": "lakhisarai",
-      "fees": "520000"
-    },
-    {
-      "id": "dcd7",
-      "rollno": "45",
-      "name": "jkrhr",
-      "city": "dwf",
-      "fees": "2344"
+      "fees": "223"
     }
   ]
 }
