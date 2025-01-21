@@ -1,13 +1,6 @@
 {
   "students": [
     {
-      "id": "1",
-      "rollno": 1,
-      "name": "Suman Kumar",
-      "city": "Delhi",
-      "fees": 1500
-    },
-    {
       "id": "2",
       "rollno": 2,
       "name": "Anjalisingh",
@@ -34,6 +27,13 @@
       "name": "suman kumar",
       "city": "lakhisarai",
       "fees": "520000"
+    },
+    {
+      "id": "dcd7",
+      "rollno": "45",
+      "name": "jkrhr",
+      "city": "dwf",
+      "fees": "2344"
     }
   ]
 }
