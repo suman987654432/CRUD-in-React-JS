@@ -7,7 +7,6 @@ const EditPage = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [input, setInput] = useState({
-
   });
 
   const loadData = () => {
