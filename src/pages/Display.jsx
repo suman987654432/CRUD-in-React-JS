@@ -8,6 +8,7 @@ import { useNavigate } from "react-router-dom";
 const Display = () => {
     const [mydata, setmydata] = useState([]);
     const navigate = useNavigate();
+    
     const loadData = async () => {
         const api = "http://localhost:3000/students";
         try {
