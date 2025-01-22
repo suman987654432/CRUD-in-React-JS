@@ -8,7 +8,6 @@ const EditPage = () => {
   const navigate = useNavigate();
   const [input, setInput] = useState({
   });
-
   const loadData = () => {
     const api = `http://localhost:3000/students/${id}`;
     axios.get(api).then((res) => {
