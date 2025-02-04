@@ -1,32 +1,19 @@
 {
   "students": [
     {
-      "id": "2",
-      "rollno": 2,
-      "name": "Anjalisingh",
-      "city": "Mumbai",
-      "fees": "20"
-    },
-    {
       "id": "911f",
       "rollno": "5",
       "name": "aman ",
       "city": "patna",
       "fees": "45"
     },
+  
     {
-      "id": "6db7",
-      "rollno": "6",
-      "name": "rajesh",
-      "city": "delhi",
-      "fees": "45"
-    },
-    {
-      "id": "71c5",
-      "rollno": "9",
-      "name": "sumit",
-      "city": "munger",
-      "fees": "908"
+      "id": "2702",
+      "rollno": "464",
+      "name": "aman",
+      "city": "Bihar",
+      "fees": "223"
     }
   ]
 }

@@ -52,13 +52,21 @@
 // }
 // export default Home;
 
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+  const navigate = useNavigate();
+
+  const handleSubmit = () => {
+    navigate("/display");
+  };
+
   return (
     <>
-    <center><h1>HOME PAGE </h1></center>
+      <center><h1>HOME PAGE</h1></center>
+      <button onClick={handleSubmit}>Next</button>
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;

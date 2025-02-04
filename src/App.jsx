@@ -23,9 +23,6 @@ const App = () => {
           <Route path="display" element={<Display />} />
           <Route path="editdata/:id" element={<EditPage />} />
           <Route path="search" element={<Search />} />
-
-
-
         </Route>
         <Route path="*" element={<NoPage />} />
       </Routes>

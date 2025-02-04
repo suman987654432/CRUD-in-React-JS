@@ -10,10 +10,17 @@ const Insert = () => {
     };
 
     const handleSubmit = async () => {
+        const { rollno, name, city, fees } = input;
+        if (!rollno || !name || !city || !fees) {
+            alert("Please fill in all fields before submitting.");
+            return;
+        }
         const api = "http://localhost:3000/students";
         try {
+
             await axios.post(api, input);
             alert("Data inserted");
+
         } catch (error) {
             console.error("Error inserting data:", error);
             alert("Failed to insert data");

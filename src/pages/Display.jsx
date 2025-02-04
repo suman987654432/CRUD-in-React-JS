@@ -59,7 +59,7 @@ const Display = () => {
     });
 
     return (
-        <div className="container">
+          <center><div className="container">
             <h1>Display Data</h1>
             <table className="table">
                 <thead>
@@ -73,7 +73,7 @@ const Display = () => {
                 </thead>
                 <tbody>{ans}</tbody>
             </table>
-        </div>
+        </div> </center>
     );
 };
 
